@@ -24,7 +24,7 @@ const Show = () => {
       setPageLoading(false);
     } catch (error) {
       logger.error(error);
-      history.push("/");
+      history.push("/dashboard");
     }
   };
 
