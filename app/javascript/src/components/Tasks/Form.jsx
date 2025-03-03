@@ -13,6 +13,7 @@ const Form = ({
   users,
   setUserId,
   loading,
+  userId,
   handleSubmit,
 }) => {
   const history = useHistory();
@@ -29,7 +30,7 @@ const Form = ({
 
   const isNotDirty = equals(initialValues.current, {
     title,
-    userId: assignedUser?.id,
+    userId,
   });
 
   return (
