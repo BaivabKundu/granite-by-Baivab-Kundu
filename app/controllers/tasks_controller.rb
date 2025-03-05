@@ -12,7 +12,7 @@ class TasksController < ApplicationController
     task = Task.new(task_params)
     puts task
     task.save!
-    render_notice(t("successfully_created"))
+    render_notice(t("successfully_created", entity: "Task"))
   end
 
   def show
