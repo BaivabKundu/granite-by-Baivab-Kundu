@@ -23,6 +23,7 @@ const Login = () => {
       });
       setAuthHeaders();
       window.location.href = "/";
+      setLoading(false);
     } catch (error) {
       logger.error(error);
       setLoading(false);
