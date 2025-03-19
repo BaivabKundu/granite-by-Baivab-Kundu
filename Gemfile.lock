@@ -406,7 +406,7 @@ DEPENDENCIES
   jbuilder
   letter_opener
   ostruct
-  pg (~> 1.5)
+  pg
   pry-byebug
   puma (>= 5.0)
   pundit
