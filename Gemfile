@@ -98,4 +98,4 @@ gem "letter_opener", group: :development
 
 gem "sqlite3", "~> 1.4", group: [:development, :test]
 
-gem "pg", "~> 1.5.9", group: [:production]
+gem "pg", "~> 1.5", group: [:production]
