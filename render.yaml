@@ -10,7 +10,7 @@ services:
         fromDatabase:
           name: granite-db
           property: connectionString
-      - key: RAILS_MASTER_KEY
+      - key: UPlTPxv4zmCd5hZJa4YrAw0qS1bxNzDEUJFlhpMyo4zYlgaWKGs3GB1O4NxIBztC0LaNwnJFhbiUUrYrOC2nYmAvozYECmD8WhUuy90yo0edQxc7235QHxRO67jvoR1mTu5EhjBh0Gf5UB7NFWwERlNieo/vxvjoobCQMGHK1wiz4OvSHtMCzHiDnK4721s+pzCjqmqls6mBv2kTnUD4eZQdqDJcFznzPGRc4gvzxv0f6yuU/94FYyNbNyaiY3zYvud28jvIxNV0uye+0f/B402X/5O0HcHAjrOTg7lkIHbVy/oPHovn7WOhPKY2ipl45efltSoT9/c7/+LoKqRNAvRFSyZQ0DPn/7J2o5CE8x7fpd2suwqXRtprU+tlXOXLLXv/QAYbpBoKYBFigG/RRUrSl8Wq--nVPkKn/wcpC84QXl--dqbIqkRCEyky4OVC73eXjw==
         sync: false
     buildCommand: ./bin/build_script
     startCommand: bundle exec puma -C config/puma.rb
