@@ -126,5 +126,3 @@ dump.rdb
 yarn-debug.log*
 .yarn-integrity
 coverage
-
-render.yaml
