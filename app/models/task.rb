@@ -5,8 +5,9 @@ class Task < ApplicationRecord
   VALID_TITLE_REGEX = /\A.*[a-zA-Z0-9].*\z/i
   RESTRICTED_ATTRIBUTES = %i[title task_owner_id assigned_user_id]
 
+  attribute :status, :string, default: "unstarred"
+  attribute :progress, :string, default: "pending"
   enum :status, { unstarred: "unstarred", starred: "starred" }, default: :unstarred
-
   enum :progress, { pending: "pending", completed: "completed" }, default: :pending
 
   has_many :comments, dependent: :destroy
